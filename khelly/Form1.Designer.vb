@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -99,6 +100,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(46, 16)
         Me.Label1.Name = "Label1"
@@ -109,6 +111,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(46, 51)
         Me.Label2.Name = "Label2"
@@ -119,6 +122,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(46, 90)
         Me.Label3.Name = "Label3"
@@ -129,6 +133,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(13, 130)
         Me.Label4.Name = "Label4"
@@ -139,6 +144,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(12, 169)
         Me.Label5.Name = "Label5"
@@ -149,6 +155,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(12, 206)
         Me.Label6.Name = "Label6"
@@ -159,6 +166,7 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(26, 243)
         Me.Label7.Name = "Label7"
@@ -169,6 +177,7 @@ Partial Class Form1
         'Label8
         '
         Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(28, 279)
         Me.Label8.Name = "Label8"
@@ -179,6 +188,7 @@ Partial Class Form1
         'Label9
         '
         Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(32, 313)
         Me.Label9.Name = "Label9"
@@ -189,6 +199,7 @@ Partial Class Form1
         'Label10
         '
         Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(45, 346)
         Me.Label10.Name = "Label10"
@@ -276,6 +287,7 @@ Partial Class Form1
         'Label31
         '
         Me.Label31.AutoSize = True
+        Me.Label31.BackColor = System.Drawing.Color.Transparent
         Me.Label31.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.Location = New System.Drawing.Point(135, 400)
         Me.Label31.Name = "Label31"
@@ -366,6 +378,7 @@ Partial Class Form1
         'Label11
         '
         Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(431, 348)
         Me.Label11.Name = "Label11"
@@ -376,6 +389,7 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(418, 315)
         Me.Label12.Name = "Label12"
@@ -386,6 +400,7 @@ Partial Class Form1
         'Label13
         '
         Me.Label13.AutoSize = True
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(414, 281)
         Me.Label13.Name = "Label13"
@@ -396,6 +411,7 @@ Partial Class Form1
         'Label14
         '
         Me.Label14.AutoSize = True
+        Me.Label14.BackColor = System.Drawing.Color.Transparent
         Me.Label14.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(412, 245)
         Me.Label14.Name = "Label14"
@@ -406,6 +422,7 @@ Partial Class Form1
         'Label15
         '
         Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(398, 208)
         Me.Label15.Name = "Label15"
@@ -416,6 +433,7 @@ Partial Class Form1
         'Label16
         '
         Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.Color.Transparent
         Me.Label16.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(398, 171)
         Me.Label16.Name = "Label16"
@@ -426,6 +444,7 @@ Partial Class Form1
         'Label17
         '
         Me.Label17.AutoSize = True
+        Me.Label17.BackColor = System.Drawing.Color.Transparent
         Me.Label17.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(399, 132)
         Me.Label17.Name = "Label17"
@@ -436,6 +455,7 @@ Partial Class Form1
         'Label18
         '
         Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.Color.Transparent
         Me.Label18.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(432, 92)
         Me.Label18.Name = "Label18"
@@ -446,6 +466,7 @@ Partial Class Form1
         'Label19
         '
         Me.Label19.AutoSize = True
+        Me.Label19.BackColor = System.Drawing.Color.Transparent
         Me.Label19.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(432, 53)
         Me.Label19.Name = "Label19"
@@ -456,6 +477,7 @@ Partial Class Form1
         'Label20
         '
         Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.Color.Transparent
         Me.Label20.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.Location = New System.Drawing.Point(432, 18)
         Me.Label20.Name = "Label20"
@@ -536,6 +558,7 @@ Partial Class Form1
         'Label21
         '
         Me.Label21.AutoSize = True
+        Me.Label21.BackColor = System.Drawing.Color.Transparent
         Me.Label21.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.Location = New System.Drawing.Point(819, 348)
         Me.Label21.Name = "Label21"
@@ -546,6 +569,7 @@ Partial Class Form1
         'Label22
         '
         Me.Label22.AutoSize = True
+        Me.Label22.BackColor = System.Drawing.Color.Transparent
         Me.Label22.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.Location = New System.Drawing.Point(806, 315)
         Me.Label22.Name = "Label22"
@@ -556,6 +580,7 @@ Partial Class Form1
         'Label23
         '
         Me.Label23.AutoSize = True
+        Me.Label23.BackColor = System.Drawing.Color.Transparent
         Me.Label23.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.Location = New System.Drawing.Point(802, 281)
         Me.Label23.Name = "Label23"
@@ -566,6 +591,7 @@ Partial Class Form1
         'Label24
         '
         Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.Color.Transparent
         Me.Label24.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.Location = New System.Drawing.Point(800, 245)
         Me.Label24.Name = "Label24"
@@ -576,6 +602,7 @@ Partial Class Form1
         'Label25
         '
         Me.Label25.AutoSize = True
+        Me.Label25.BackColor = System.Drawing.Color.Transparent
         Me.Label25.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.Location = New System.Drawing.Point(786, 208)
         Me.Label25.Name = "Label25"
@@ -586,6 +613,7 @@ Partial Class Form1
         'Label26
         '
         Me.Label26.AutoSize = True
+        Me.Label26.BackColor = System.Drawing.Color.Transparent
         Me.Label26.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(786, 171)
         Me.Label26.Name = "Label26"
@@ -596,6 +624,7 @@ Partial Class Form1
         'Label27
         '
         Me.Label27.AutoSize = True
+        Me.Label27.BackColor = System.Drawing.Color.Transparent
         Me.Label27.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.Location = New System.Drawing.Point(787, 132)
         Me.Label27.Name = "Label27"
@@ -606,6 +635,7 @@ Partial Class Form1
         'Label28
         '
         Me.Label28.AutoSize = True
+        Me.Label28.BackColor = System.Drawing.Color.Transparent
         Me.Label28.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.Location = New System.Drawing.Point(820, 92)
         Me.Label28.Name = "Label28"
@@ -616,6 +646,7 @@ Partial Class Form1
         'Label29
         '
         Me.Label29.AutoSize = True
+        Me.Label29.BackColor = System.Drawing.Color.Transparent
         Me.Label29.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.Location = New System.Drawing.Point(820, 53)
         Me.Label29.Name = "Label29"
@@ -626,6 +657,7 @@ Partial Class Form1
         'Label30
         '
         Me.Label30.AutoSize = True
+        Me.Label30.BackColor = System.Drawing.Color.Transparent
         Me.Label30.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.Location = New System.Drawing.Point(820, 18)
         Me.Label30.Name = "Label30"
@@ -636,7 +668,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Uighur", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(471, 455)
+        Me.Button2.Location = New System.Drawing.Point(556, 455)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(95, 27)
         Me.Button2.TabIndex = 116
@@ -646,16 +678,17 @@ Partial Class Form1
         'Label32
         '
         Me.Label32.AutoSize = True
+        Me.Label32.BackColor = System.Drawing.Color.Transparent
         Me.Label32.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(437, 400)
+        Me.Label32.Location = New System.Drawing.Point(522, 400)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(180, 19)
+        Me.Label32.Size = New System.Drawing.Size(200, 19)
         Me.Label32.TabIndex = 115
-        Me.Label32.Text = "COMPUTE PRELIM"
+        Me.Label32.Text = "COMPUTE MIDTERM"
         '
         'Box32
         '
-        Me.Box32.Location = New System.Drawing.Point(471, 423)
+        Me.Box32.Location = New System.Drawing.Point(556, 423)
         Me.Box32.Name = "Box32"
         Me.Box32.Size = New System.Drawing.Size(100, 26)
         Me.Box32.TabIndex = 114
@@ -663,7 +696,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Uighur", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(769, 455)
+        Me.Button3.Location = New System.Drawing.Point(943, 455)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(95, 27)
         Me.Button3.TabIndex = 119
@@ -673,16 +706,17 @@ Partial Class Form1
         'Label33
         '
         Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.Color.Transparent
         Me.Label33.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(735, 400)
+        Me.Label33.Location = New System.Drawing.Point(909, 400)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(180, 19)
+        Me.Label33.Size = New System.Drawing.Size(177, 19)
         Me.Label33.TabIndex = 118
-        Me.Label33.Text = "COMPUTE PRELIM"
+        Me.Label33.Text = "COMPUTE FINALS"
         '
         'Box33
         '
-        Me.Box33.Location = New System.Drawing.Point(769, 423)
+        Me.Box33.Location = New System.Drawing.Point(943, 423)
         Me.Box33.Name = "Box33"
         Me.Box33.Size = New System.Drawing.Size(100, 26)
         Me.Box33.TabIndex = 117
@@ -690,7 +724,7 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Uighur", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(471, 550)
+        Me.Button4.Location = New System.Drawing.Point(551, 553)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(95, 27)
         Me.Button4.TabIndex = 122
@@ -700,8 +734,9 @@ Partial Class Form1
         'Label34
         '
         Me.Label34.AutoSize = True
+        Me.Label34.BackColor = System.Drawing.Color.Transparent
         Me.Label34.Font = New System.Drawing.Font("Imprint MT Shadow", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.Location = New System.Drawing.Point(453, 496)
+        Me.Label34.Location = New System.Drawing.Point(533, 499)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(146, 19)
         Me.Label34.TabIndex = 121
@@ -709,7 +744,7 @@ Partial Class Form1
         '
         'Box34
         '
-        Me.Box34.Location = New System.Drawing.Point(471, 518)
+        Me.Box34.Location = New System.Drawing.Point(551, 521)
         Me.Box34.Name = "Box34"
         Me.Box34.Size = New System.Drawing.Size(100, 26)
         Me.Box34.TabIndex = 120
@@ -719,7 +754,8 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.ClientSize = New System.Drawing.Size(1094, 618)
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.ClientSize = New System.Drawing.Size(1129, 618)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label34)
         Me.Controls.Add(Me.Box34)

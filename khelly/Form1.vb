@@ -1,6 +1,19 @@
 ﻿' PRELIM '
 Public Class Form1
     Dim QZ1_P, QZ2_P, QZ3_P, ATT_P, REC1_P, REC2_P, ACT1_P, ACT2_P, ACT3_P, EXAM_P As Double
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Box33_TextChanged(sender As Object, e As EventArgs) Handles Box33.TextChanged
+
+    End Sub
+
+    Private Sub Label33_Click(sender As Object, e As EventArgs) Handles Label33.Click
+
+    End Sub
+
     Dim TQ1_P, TATT_P, TREC_P, TACT_P, TEXAM_P, P As Double
 
 
